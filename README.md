@@ -1,3 +1,40 @@
+Test using the day pilot calendar react plug in
+
+https://code.daypilot.org/42221/react-weekly-calendar-tutorial
+
+Package install:
+npm install @daypilot/daypilot-lite-react
+
+OR 
+
+yarn add @daypilot/daypilot-lite-react
+
+
+Import modules into React:
+import { DayPilot, DayPilotCalendar, DayPilotNavigator } from '@daypilot/daypilot-lite-react';
+
+
+
+Dealing with timezones:
+https://api.daypilot.org/daypilot-date-class/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
