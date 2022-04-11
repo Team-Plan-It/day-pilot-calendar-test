@@ -1,12 +1,14 @@
 
 import React, { Component, useState, useEffect } from 'react';
 import { DayPilot, DayPilotCalendar, DayPilotNavigator } from '@daypilot/daypilot-lite-react';
+import Results from './Results';
 import './App.css';
 
 
 const styles = {
   wrap: {
     display: "flex",
+    flexDirection:"column"
   },
   left: {
     marginRight: "10px",
@@ -122,25 +124,8 @@ function App() {
         }}
       />
 
-      <ul>
-        {/* {
-        eventArray.length> 0
-        
-        ? eventArray.map(event => {
-          return(
-            
-            <li key={event.id}>
-              <p>Start: {event.start.value}</p>
-              <p>End: {event.end.value}</p>
-              <p>{event.text}</p>
-            </li>
-            
-            )
-          })
-          : null
-          
-        } */}
-      </ul>
+
+      <Results />
     </div>
   );
 }
