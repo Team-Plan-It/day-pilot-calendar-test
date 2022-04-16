@@ -116,6 +116,7 @@ function App() {
         startDate={day}
         dayBeginsHour={9}
         dayEndsHour={17}
+        headerDateFormat={"d MMMM yyyy"}
         onTimeRangeSelected={handleTimeSelected}
         onEventClick={handleEventClicked}
         showEventStartEnd={true}

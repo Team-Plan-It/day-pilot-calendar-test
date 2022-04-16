@@ -11,3 +11,10 @@
     padding: 5px;
     opacity: 0.8;
 }
+/* div.calendar_default_cell :not(.calendar_default_cell_business) {
+    background-color: midnightblue;
+}
+
+.calendar_default_cell.calendar_default_cell_business{
+    background-color: #fff;
+} */
